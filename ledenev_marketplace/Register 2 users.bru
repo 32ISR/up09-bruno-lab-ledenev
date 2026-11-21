@@ -1,0 +1,19 @@
+meta {
+  name: Register 2 users
+  type: http
+  seq: 9
+}
+
+post {
+  url: https://api.kitek-pg.ru/api/marketplace/auth/register
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "username": "pokupatel2",
+    "password": "qwwere",
+    "email": "pokupatel28@example.com"
+  }
+}

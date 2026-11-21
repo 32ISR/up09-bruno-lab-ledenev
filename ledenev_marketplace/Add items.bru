@@ -1,0 +1,24 @@
+meta {
+  name: Add items
+  type: http
+  seq: 7
+}
+
+post {
+  url: https://api.kitek-pg.ru/api/marketplace/items
+  body: json
+  auth: none
+}
+
+headers {
+  Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE3OTUyMzQ3ODY3NDYsInVzZXJuYW1lIjoibGVkZW5ldjIyOCIsImlhdCI6MTc5NTIzNDg3MCwiZXhwIjoxNzk1MzIxMjcwfQ.WbzOWIi3d-XK1xfQxcoUjJeQ2ln2Palopop3OeXiluQ
+}
+
+body:json {
+  {
+    "title": "iPhone 20xSSSS с 20 камерами",
+    "description": "Новенький айфончик крутой стильный модный молодежный",
+    "price": 86677,
+    "imageUrl": "https://example.com/iphone.jpg"
+  }
+}

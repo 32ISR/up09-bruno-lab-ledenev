@@ -1,0 +1,17 @@
+meta {
+  name: Add message
+  type: http
+  seq: 4
+}
+
+post {
+  url: https://api.kitek-pg.ru/api/feedback/messages
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "content": "Салам всем друзя"
+  }
+}

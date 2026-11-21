@@ -1,0 +1,21 @@
+meta {
+  name: Add bids
+  type: http
+  seq: 11
+}
+
+post {
+  url: https://api.kitek-pg.ru/api/marketplace/items/1794897061431/bids
+  body: json
+  auth: none
+}
+
+headers {
+  Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE3OTUyMzcxMTU5NDMsInVzZXJuYW1lIjoicG9rdXBhdGVsMiIsImlhdCI6MTc5NTIzNzEyOCwiZXhwIjoxNzk1MzIzNTI4fQ.Umx8edFxujJBVE766-oRBr6wBIKWsPr7O2O0BbEFCgI
+}
+
+body:json {
+  {
+    "amount": 456342
+  }
+}
