@@ -1,0 +1,19 @@
+meta {
+  name: Public endpoint
+  type: http
+  seq: 1
+}
+
+post {
+  url: https://api.kitek-pg.ru/api/marketplace/auth/register
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "username": "ledenev228",
+    "password": "qwert22",
+    "email": "ledenev228@example.com"
+  }
+}
